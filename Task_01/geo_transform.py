@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #abre imagen
-filename = sys.argv[1]
-im = cv2.imread(filename)
+# filename = sys.argv[1]
+im = cv2.imread('1.jpg')
 
 #converte pra RGB
 im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
