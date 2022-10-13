@@ -7,7 +7,7 @@ from cv_utils import waitKey
 img = cv2.imread(r'C:\Users\richa\OneDrive\Documentos\Computer Vision\Computer-Vision-Course\Task_05\imagens\machu_picchu1.jpg')
 
 
-sift = cv2.xfeatures2d.SIFT_create(nfeatures=10)
+sift = cv2.xfeatures2d.SIFT_create(nfeatures=)
 orb = cv2.ORB_create(nfeatures=1000)
 
 keypoints_sift, descriptors_sift = sift.detectAndCompute(img, None)
