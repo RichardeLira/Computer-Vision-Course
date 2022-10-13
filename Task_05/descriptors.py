@@ -4,7 +4,7 @@ import sys
 from cv_utils import waitKey
 
 
-img = cv2.imread(sys.argv[1],0)
+img = cv2.imread(r'C:\Users\richa\OneDrive\Documentos\Computer Vision\Computer-Vision-Course\Task_05\imagens\machu_picchu1.jpg')
 
 
 sift = cv2.xfeatures2d.SIFT_create(nfeatures=10)

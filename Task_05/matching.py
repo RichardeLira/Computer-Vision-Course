@@ -49,15 +49,15 @@ def matching_sift(im1,im2):
 ############
 
 
-img1 = cv.imread( sys.argv[1],0) # queryImage
-img2 = cv.imread( sys.argv[2],0) # trainImage
+img1 = cv.imread(r'C:\Users\richa\OneDrive\Documentos\Computer Vision\Computer-Vision-Course\Task_05\imagens\machu_picchu1.jpg') # queryImage
+img2 = cv.imread(r'C:\Users\richa\OneDrive\Documentos\Computer Vision\Computer-Vision-Course\Task_05\imagens\machu_picchu2.jpg') # trainImage
 
 
 #SIFT
-matching_sift(img1,img2)
+# matching_sift(img1,img2)
 
-#ORB
-matching_orb(img1,img2)
+# #ORB
+# matching_orb(img1,img2)
 
 
 
